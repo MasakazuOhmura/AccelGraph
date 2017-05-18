@@ -9,4 +9,7 @@
     <string name="x_label">X-axis</string>
     <string name="y_label">Y-axis</string>
     <string name="z_label">Z-axis</string>
+    <string name="x_label2">X-pitch</string>
+    <string name="y_label2">Y-roll</string>
+    <string name="z_label2">Z-azimuth</string>
 </resources>
