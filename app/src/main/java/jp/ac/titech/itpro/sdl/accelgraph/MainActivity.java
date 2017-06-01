@@ -15,25 +15,12 @@ import java.util.Locale;
 
 public class MainActivity extends Activity implements SensorEventListener {
 
-    /**
-     * 行列数
-     */
-    private static final int MATRIX_SIZE = 16;
-    /**
-     * 三次元(XYZ)
-     */
-    private static final int DIMENSION = 3;
-    /**
-     * 地磁気行列
-     */
-    private float[] mMagneticValues;
-    /**
-     * 加速度行列
-     */
-    private float[] mAccelerometerValues;
-    /**
-     * 回転角度
-     */
+    private static final int MATRIX_SIZE = 16; // 行数
+    private static final int DIMENSION = 3; // 三次元(XYZ)
+    private float[] mMagneticValues; // 地磁気行列
+    private float[] mAccelerometerValues; // 加速度行列
+
+    // 回転角度
     private int pitchX;
     private int rollY;
     private int azimuthZ;
